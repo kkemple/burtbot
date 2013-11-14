@@ -1,0 +1,42 @@
+{
+	"inputs": {
+		"how do i append an element with jquery": {
+			"type": "how to",
+			"topic": "jquery",
+			"actions": "append"
+		}
+	},
+	"types": {
+		"how to": {
+			"keyPhrases": [
+				"how do i",
+				"i want to",
+				"how do you"
+			]
+		},
+		"task": {
+			"keyPhrases": [
+				"find",
+				"get",
+				"open",
+				"edit",
+				"remove"
+			]
+		}
+	},
+	"topics": {
+		"jquery": {
+			"actions": {
+				"append": "http://api.jquery.com/append/"
+			}
+		}
+	},
+	"tasks": {
+		"find": {
+			"type": {
+				"file": "Let me find that file for you...",
+				"phase": "Let me find that phrase for you..."
+			}
+		}
+	}
+}
