@@ -1,9 +1,12 @@
 {
 	"inputs": {
 		"how do i append an element with jquery": {
-			"type": "how to",
+			"task": "google",
 			"topic": "jquery",
 			"actions": "append"
+		},
+		"how old are you?": {
+			"respond": ""
 		}
 	},
 	"types": {
@@ -36,6 +39,11 @@
 			"type": {
 				"file": "Let me find that file for you...",
 				"phase": "Let me find that phrase for you..."
+			}
+		},
+		"get": {
+			"type": {
+				"package": ""
 			}
 		}
 	}

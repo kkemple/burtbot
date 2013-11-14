@@ -42,6 +42,8 @@
     "Burtbot": "lib/burtbot.js"
   },
   "dependencies": {
-    "open": "0.0.4"
+    "open": "0.0.4",
+    "bower": "~1.2.7",
+    "sentence-tokenizer": "0.0.7"
   }
 }
