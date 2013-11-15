@@ -34,7 +34,7 @@ module.exports = function(grunt) {
         files: '<%= jshint.test.src %>',
         tasks: ['jshint:test', 'nodeunit']
       },
-    },
+    }
   });
 
   // These plugins provide necessary tasks.
@@ -44,5 +44,6 @@ module.exports = function(grunt) {
 
   // Default task.
   grunt.registerTask('default', ['jshint', 'nodeunit']);
+  grunt.registerTask('test', ['jshint']);
 
 };
