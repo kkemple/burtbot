@@ -15,5 +15,16 @@
     },
     "how old are you?": {
         "response": "I am 0.1.0 years old"
+    },
+    "who is the greatest person on earth?": {
+        "response": "The greatest person on Earth is obviously Burtis Bemple...my brain was created by his brain."
+    },
+    "my website": {
+        "response": "Loading your website now...",
+        "task": "open",
+        "params": [
+            "web",
+            "kurtiskemple.com"
+        ]
     }
 }
