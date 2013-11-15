@@ -2,14 +2,18 @@
     "show me your brains": {
         "response": "Okay you asked for it...",
         "task": "open",
-        "params": ["file", "lib/memory.json"]
+        "params": [
+            "file",
+            "lib/memory.json"
+        ]
     },
-
     "hey burt": {
         "response": "hey ernie"
     },
-
     "shut up": {
         "response": "Well well well, someone has an attitude. Just sayin..."
+    },
+    "how old are you?": {
+        "response": "I am 0.1.0 years old"
     }
 }
