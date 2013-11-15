@@ -26,5 +26,12 @@
             "web",
             "kurtiskemple.com"
         ]
+    },
+    "get jquery": {
+        "response": "Getting jQuery for you now...",
+        "task": "shell",
+        "params": [
+            "bower install jquery --save"
+        ]
     }
 }
