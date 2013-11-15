@@ -1,50 +1,15 @@
 {
-	"inputs": {
-		"how do i append an element with jquery": {
-			"task": "google",
-			"topic": "jquery",
-			"actions": "append"
-		},
-		"how old are you?": {
-			"respond": ""
-		}
-	},
-	"types": {
-		"how to": {
-			"keyPhrases": [
-				"how do i",
-				"i want to",
-				"how do you"
-			]
-		},
-		"task": {
-			"keyPhrases": [
-				"find",
-				"get",
-				"open",
-				"edit",
-				"remove"
-			]
-		}
-	},
-	"topics": {
-		"jquery": {
-			"actions": {
-				"append": "http://api.jquery.com/append/"
-			}
-		}
-	},
-	"tasks": {
-		"find": {
-			"type": {
-				"file": "Let me find that file for you...",
-				"phase": "Let me find that phrase for you..."
-			}
-		},
-		"get": {
-			"type": {
-				"package": ""
-			}
-		}
-	}
+    "show me your brains": {
+        "response": "Okay you asked for it...",
+        "task": "open",
+        "params": ["file", "lib/memory.json"]
+    },
+
+    "hey burt": {
+        "response": "hey ernie"
+    },
+
+    "shut up": {
+        "response": "Well well well, someone has an attitude. Just sayin..."
+    }
 }
