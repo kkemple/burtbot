@@ -1,7 +1,6 @@
-# burtbot [![Build Status](https://secure.travis-ci.org/kkemple/burtbot.png?branch=master)](http://travis-ci.org/kkemple/burtbot)
-
+# burtbot
 Burtbot will help you with a ton of web development related tasks, just ask him a question or request something and he will help you out!
-> PS. You can call just call him burt =]
+> PS. You can just call him burt if you prefer =]
 
 ## Getting Started
 Install the module with: `npm install burtbot`
