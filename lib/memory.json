@@ -33,5 +33,24 @@
         "params": [
             "bower install jquery --save"
         ]
+    },
+    "what are you": {
+        "response": "**Robot Voice** Why...I'm human... \nahahahahaha!!! Just kidding...I'm a robot. Man you should have seen your face! My days would be so boring without webcams."
+    },
+    "show me analytics": {
+        "response": "Pulling that up for you now...",
+        "task": "open",
+        "params": [
+            "web",
+            "www.google.com/analytics/web/?et&authuser=0#dashboard/default/a42606120w72398536p74728309/"
+        ]
+    },
+    "find pets": {
+        "response": "Finding you some cute little cuddly pets...",
+        "task": "open",
+        "params": [
+            "web",
+            "www.petfinder.com"
+        ]
     }
 }
