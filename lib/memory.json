@@ -29,9 +29,9 @@
     },
     "get jquery": {
         "response": "Getting jQuery for you now...",
-        "task": "shell",
+        "task": "get",
         "params": [
-            "bower install jquery --save"
+            "bower", "query", "true"
         ]
     },
     "what are you": {
@@ -55,5 +55,12 @@
     },
     "what is the meaning of the universe": {
         "response": "The meaning of the Universe is beyond the scope of this function, you are only in the global namespace."
+    },
+    "get meanio": {
+        "response": "Getting mean.io boilerplate for you now...",
+        "task": "shell",
+        "params": [
+            "git clone git@github.com:linnovate/mean.git newMeanProject"
+        ]
     }
 }

@@ -3,16 +3,7 @@
     "version": "",
     "description": "",
     "main": "index.js",
-    "scripts": {
-        "test": ""
-    },
     "repository": "",
     "author": "",
-    "license": "BSD",
-    "dependencies": {
-        ""
-    },
-    "devDependencies": {
-        ""
-    }
+    "license": "BSD"
 }
