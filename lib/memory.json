@@ -13,7 +13,7 @@
     "shut up": {
         "response": "Well well well, someone has an attitude. Just sayin..."
     },
-    "how old are you?": {
+    "how old are you": {
         "response": "I am 0.1.0 years old"
     },
     "who is the greatest person on earth?": {
@@ -52,5 +52,8 @@
             "web",
             "www.petfinder.com"
         ]
+    },
+    "what is the meaning of the universe": {
+        "response": "The meaning of the Universe is beyond the scope of this function, you are only in the global namespace."
     }
 }
