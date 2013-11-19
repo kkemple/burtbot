@@ -73,5 +73,12 @@
             "what is the meaning of the universe",
             "get meanio"
         ]
+    },
+    "list files": {
+        "response": "Listing files for you now...",
+        "task": "shell",
+        "params": [
+            "ls"
+        ]
     }
 }
