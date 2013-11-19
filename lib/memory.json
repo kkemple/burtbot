@@ -16,7 +16,7 @@
     "how old are you": {
         "response": "I am 0.1.0 years old"
     },
-    "who is the greatest person on earth?": {
+    "who is the greatest person on earth": {
         "response": "The greatest person on Earth is obviously Burtis Bemple...my brain was created by his brain."
     },
     "my website": {
@@ -31,7 +31,9 @@
         "response": "Getting jQuery for you now...",
         "task": "get",
         "params": [
-            "bower", "jquery", "true"
+            "bower",
+            "jquery",
+            "true"
         ]
     },
     "what are you": {
@@ -61,6 +63,15 @@
         "task": "shell",
         "params": [
             "git clone git@github.com:linnovate/mean.git newMeanProject"
+        ]
+    },
+    "start new mean project": {
+        "response": "Starting the project for you now...",
+        "task": "chainable",
+        "params": [
+            "who is the greatest person on earth",
+            "what is the meaning of the universe",
+            "get meanio"
         ]
     }
 }
