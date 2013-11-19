@@ -31,7 +31,7 @@
         "response": "Getting jQuery for you now...",
         "task": "get",
         "params": [
-            "bower", "query", "true"
+            "bower", "jquery", "true"
         ]
     },
     "what are you": {
