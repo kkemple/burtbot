@@ -33,7 +33,14 @@
     "grunt-contrib-watch": "~0.5.3",
     "grunt": "~0.4.1"
   },
-  "keywords": ["tasks", "smart","grunt","yoeman","bower","smarttasks"],
+  "keywords": [
+    "tasks",
+    "smart",
+    "grunt",
+    "yoeman",
+    "bower",
+    "smarttasks"
+  ],
   "preferGlobal": "true",
   "bin": {
     "burt": "lib/burtbot.js",
@@ -42,8 +49,6 @@
   },
   "dependencies": {
     "open": "0.0.4",
-    "bower": "~1.2.7",
-    "sentence-tokenizer": "0.0.7",
-    "http-server": "~0.5.5"
+    "bower": "~1.2.7"
   }
 }

@@ -13,10 +13,10 @@
     "shut up": {
         "response": "Well well well, someone has an attitude. Just sayin..."
     },
-    "how old are you?": {
+    "how old are you": {
         "response": "I am 0.1.0 years old"
     },
-    "who is the greatest person on earth?": {
+    "who is the greatest person on earth": {
         "response": "The greatest person on Earth is obviously Burtis Bemple...my brain was created by his brain."
     },
     "my website": {
@@ -29,9 +29,11 @@
     },
     "get jquery": {
         "response": "Getting jQuery for you now...",
-        "task": "shell",
+        "task": "get",
         "params": [
-            "bower install jquery --save"
+            "bower",
+            "jquery",
+            "true"
         ]
     },
     "what are you": {
@@ -51,6 +53,25 @@
         "params": [
             "web",
             "www.petfinder.com"
+        ]
+    },
+    "what is the meaning of the universe": {
+        "response": "The meaning of the Universe is beyond the scope of this function, you are only in the global namespace."
+    },
+    "get meanio": {
+        "response": "Getting mean.io boilerplate for you now...",
+        "task": "shell",
+        "params": [
+            "git clone git@github.com:linnovate/mean.git newMeanProject"
+        ]
+    },
+    "start new mean project": {
+        "response": "Starting the project for you now...",
+        "task": "chainable",
+        "params": [
+            "who is the greatest person on earth",
+            "what is the meaning of the universe",
+            "get meanio"
         ]
     }
 }
