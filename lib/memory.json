@@ -80,5 +80,13 @@
         "params": [
             "ls"
         ]
+    },
+    "open my website": {
+        "response": "Opening your website now...",
+        "task": "open",
+        "params": [
+            "web",
+            "kurtiskemple.com"
+        ]
     }
 }
